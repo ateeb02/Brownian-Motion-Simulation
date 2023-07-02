@@ -1,14 +1,6 @@
 import pygame
 import numpy as np
-
-# Simulation parameters
-num_particles = 50
-container_width = 400
-container_height = 300
-particle_radius = 3
-particle_mass = 1.0
-elasticity = 0.1
-simulation_speed = 0.1
+from presets import num_particles, container_width, container_height, particle_radius, particle_mass, elasticity, simulation_speed
 
 # Initialize Pygame
 pygame.init()
